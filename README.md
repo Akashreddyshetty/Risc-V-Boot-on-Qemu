@@ -1,6 +1,5 @@
 # RISC-V bare metal "fake BIOS" example
-
-This code is meant to accompany the website article: https://popovicu.com/posts/bare-metal-programming-risc-v/
+This program prints "hello" from Virtual Uart using a Risc-v processor on VirtIO target machine in Qemu EMulator
 
 To build the "fake BIOS", simply run `make hello` (you may want to change your cross compile make prefix with `CROSS_COMPILE`).
 
